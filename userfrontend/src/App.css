@@ -1,0 +1,62 @@
+.app-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem;
+    background: linear-gradient(to bottom right, #f4fefc, #e8f5e9);
+    min-height: 100vh;
+}
+
+/* Card style */
+.card {
+    background-color: #ffffff;
+    border-radius: 1.6rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+    margin: 1rem 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Stylish button */
+button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 1.2rem 2.4rem;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Inputs & Selects */
+input,
+select {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.8rem;
+    font-size: 1.5rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    transition: border-color 0.3s ease, box-shadow 0.2s ease;
+}
+
+input:focus,
+select:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 2px rgba(40, 167, 69, 0.2);
+    outline: none;
+}
